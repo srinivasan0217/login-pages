@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+body{
+  background-color: black;
+}
+.login-page {
+  height: 700px;
+  background: url(../images/matthieu-comoy-koo_vYrlU_U-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-page .login-form {
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-page .login-form form {
+  width: 550px;
+  padding: 120px 100px;
+  backdrop-filter:brightness(20%);
+}
+.login-form form h1 {
+  color: antiquewhite;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+}
+.login-form form .input-box {
+  margin: 30px 0px;
+}
+.login-form form .input-box input {
+  width: 100%;
+  padding: 10px 15px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 2px solid antiquewhite;
+}
+.login-form form .input-box input::placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.login-form form .input-box label {
+  color: antiquewhite;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 13px;
+}
+.login-form form .form-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.login-form form .form-btn button {
+  padding: 8px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  color: antiquewhite;
+  background: none;
+  border: none;
+  border: 2px solid antiquewhite;
+}
+
+/* form two */
+
+.sign-in {
+  background: url(../images/pngtree-a-large-piece-of-green-vegetables-picture-image_1344311.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.sign-in .sign-in-form {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sign-in .sign-in-form form {
+  width: 450px;
+}
+.sign-up-content {
+  padding: 30px 50px;
+  background-color: white;
+  border-radius: 0px 0px 30px 30px;
+}
+.sign-in-form h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 30px 0px;
+  background: rgb(76, 216, 71);
+  border-radius: 30px 30px 0px 0px;
+}
+.sign-in-form form label {
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgb(75, 75, 75);
+}
+.sign-in-form form .input-box input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: rgb(234, 233, 233);
+}
+.sign-in-form form .input-box input::placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+.sign-in-form form .forgot {
+  text-align: right;
+}
+.sign-in-form form .forgot button {
+  background: none;
+  border: none;
+  color: rgb(76, 216, 71);
+  padding: 10px;
+  font-weight: 500;
+}
+.sign-in-form form .forgot button span {
+  color: gray;
+}
+.sign-in-form form .sign-in-btn button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  background-color: rgb(76, 216, 71);
+  border: none;
+}
+.sign-in-form form .sign-in-btn {
+  margin-bottom: 120px;
+  margin-top: 10px;
+}
+.sign-in-form form .new-sign-up {
+  text-align: center;
+}
+.sign-in-form form .new-sign-up p {
+  color: gray;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign-in-form form .new-sign-up a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  color: rgb(76, 216, 71);
+}
+
+/* form-three */
+
+.login-page-2 {
+  background: url(../images/photo-1510074232337-05d50fa189ba.avif);
+    height: 700px;
+  }
+  .login-page-2 .login-form-2 {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-page-2 .login-form-2 form {
+       width: 400px;
+     box-shadow: 0px 0px 55px -17px #626262;
+  
+  }
+  .login-page-2 form .form-banner {
+    background-color: #006069;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .login-page-2 form .form-banner h1 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-decoration: underline;
+  }
+  .login-page-2 form .form-inputs .input-box input {
+    width: 100%;
+    padding: 15px 10px 15px 10px;
+    margin: 15px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .login-page-2 .form-inputs .input-box input::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+  }
+  .form-btn,
+  .form-btn2 {
+    text-align: center;
+  }
+  .login-page-2 form .btns {
+    padding: 60px 0px 10px 0px;
+  }
+  .login-page-2 .btns .form-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    background-color:#006069;
+    padding: 14px 40px;
+    border-radius: 15px;
+  }
+  .login-page-2 .btns .form-btn2 {
+    margin: 30px 0px;
+  }
+  .login-page-2 .btns .form-btn2 a {
+    text-decoration: none;
+    color: gray;
+  }
+  .login-page-2 form .form-content{
+      padding:0px 70px;
+      background: white;
+      border-radius: 0px 0px 20px 20px;
+  }
+
+  /* form-4 */
+
+  
+.login-page-3 {
+  background:url(../images/Japan-mt.-fuji-night.png) no-repeat center;
+  background-size: cover;
+
+}
+.login-form-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+.login-form-3 form {
+  width: 350px;
+  padding:30px 40px;
+  background: transparent;
+  border: 1px solid wheat;
+  border-radius: 30px;
+  /* background-color: rgba(255, 255, 255, 0.186); */
+backdrop-filter: blur(15px);
+}
+.login-form-3 form h1 {
+  color: wheat;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.login-form-3 .input-box input {
+  width: 100%;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 30px;
+  margin: 15px 0px;
+  font-size: 15px;
+  color: wheat;
+  border: none;
+  outline: none;
+  border: 1px solid wheat;
+}
+.login-form-3 .input-box input::placeholder {
+  color: wheat;
+  font-size: 15px;
+}
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+}
+.remember-forgot label input {
+  accent-color: wheat;
+  margin-right: 5px;
+}
+.remember-forgot label {
+  color: wheat;
+  font-size: 15px;
+}
+.remember-forgot a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 15px;
+}
+.login-form-3 form .btn {
+  margin: 20px 0px;
+}
+.login-form-3 form .btn button {
+  width: 100%;
+  padding: 10px;
+   font-size: 15px;
+  background: transparent;
+  border: none;
+  border-radius: 30px;
+  color: wheat;
+  border: 1px solid wheat;
+}
+.login-form-3 form p {
+  color: wheat;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+.login-form-3 form p a {
+  font-weight: 600;
+  text-decoration: none;
+  color: wheat;
+}
